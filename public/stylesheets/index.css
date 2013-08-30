@@ -1,0 +1,172 @@
+
+html{
+    height: 100%;
+}
+body{
+	height:100%;
+	font-family : sans-serif;
+	color:#5E5E5E;
+}
+#container{
+	position:relative;
+	min-height:100%;
+	height:auto;
+	background:#FFFFFF;
+}
+.max-width{
+	position:relative;
+	margin:0 auto;
+	width:90%;
+	max-width:1400px;
+	padding:20px 0;
+}
+
+.big-padding-bottom{
+	padding-bottom:100px;
+}
+.text-center{
+	text-align:center;
+}
+.bold{font-weight:bold;}
+
+.btn{
+	display:inline-block;
+	margin:10px;
+	padding:10px 20px;
+	background-color:#F0F0F0;
+	border-radius:2px;
+	border:1px solid #DDD;
+	box-shadow: 0 -1px 0 0 #999999 inset, 0 1px 0 0 #FFFFFF inset;
+	color:#5E5E5E;
+	text-decoration:none;
+	vertical-align:top;
+	cursor:pointer;
+}
+.big-btn{
+	padding:20px;
+	margin:20px;
+}
+.fullwidth-btn{
+	margin:2px 0;
+	padding: 10px 5%;
+    width: 90%;
+}
+.btn:hover, .btn:focus{
+	background-color:#F5F5F5;
+	border-radius:2px;
+	border:1px solid #CCC;
+	color:#000;
+	text-decoration:none;
+}
+.btn:active{
+	box-shadow: 0 1px 0 0 #999999 inset, 0 -1px 0 0 #FFFFFF inset;
+	padding-top:11px;
+	padding-bottom:9px;
+}
+.big-btn:active{
+	padding-top:21px;
+	padding-bottom:19px;
+}
+
+.btn-new-project{
+	display:inline-block;
+	margin:20px;
+	padding:18px;
+	border:2px dashed #CCC;
+	color:#CCC;
+	text-decoration:none;
+}
+
+.btn-grey{
+    background-color:#5F5F5F;
+    border-color: #666666;
+    box-shadow: 0 -1px 0 0 #222222 inset, 0 1px 0 0 #888888 inset;
+    color: #FFFFFF;
+}
+.btn-grey:hover,.btn-grey:focus{
+    background-color:#777777;
+    color: #FFFFFF;
+    border-color: #666666;
+    box-shadow: 0 -1px 0 0 #222222 inset, 0 1px 0 0 #888888 inset;
+}
+.btn-grey:active{
+    box-shadow: 0 1px 0 0 #222222 inset, 0 -1px 0 0 #888888 inset;
+}
+
+
+.main-footer{
+	font-size:0.6em;
+	color:#888;
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	left:0;
+	width:100%;
+	padding:20px 0;
+}
+.link-footer{
+	color:#888;
+}
+
+
+
+/*POP UP*/
+
+
+.glass{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background-color:#000;
+	opacity:0.6;
+}
+
+.popup{
+	width:60%;
+	max-height:80%;
+	position:fixed;
+	top:10%;
+	left:50%;
+	margin-left:-30%;
+	padding:20px 20px 10px;
+	background-color:#FFF;
+	border-radius:2px;
+	box-shadow: 0 0 4px 0 #222222;
+	text-align:center;
+}
+
+
+.popup-header{
+	padding:20px 0;
+	color: #000000;
+	background-color:#F5F5F5;
+}
+.popup-section{
+	border-bottom:1px solid #F5F5F5;
+	padding:30px 10px;
+}
+.popup-footer{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

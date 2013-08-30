@@ -1,0 +1,35 @@
+
+.header{
+	vertical-align:middle;
+	text-align:center
+}
+ 
+.agenda {
+	width:1600px;
+	margin-left:auto;
+	margin-right: auto;
+}
+.hourHeader {
+	text-align:left;
+	height:40px;
+}
+.hour{
+	border-top:1px solid cyan;
+	text-align:left;
+	height:40px;
+	}
+
+.day{
+	border:1px solid cyan;
+	display: inline-block;
+	width: 200px;
+	position:relative;
+}
+
+.activity{
+	position:absolute;
+	height:40px;
+	background-color: yellowgreen;
+}
+
+
