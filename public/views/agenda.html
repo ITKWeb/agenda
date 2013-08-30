@@ -11,7 +11,7 @@
 					{{hours[$index]}}
 				</div>
 				
-				<div class="activity" ng-repeat="activity in activities[weekId][$index]" style="width: 120px; height:{{41*(activity.end-activity.start)}}px; top: {{(activity.start-7) *41 }}px; left:20px;" >
+				<div class="activity" ng-repeat="activity in activities[weekId][$index]" style="width: 120px; height:{{41*(activity.end-activity.start)}}px; top: {{(activity.start-6) *41 }}px; left:20px;">
 					{{activity.nom}}
 				</div>
 			</div>
